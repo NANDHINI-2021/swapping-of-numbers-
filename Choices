@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main() 
+{ 
+  int i=3;
+  switch (i) { 
+   Choice 1:
+     printf("Pizza Rs 239"); 
+   break; 
+   Choice 2: 
+     printf("Burger Rs 129"); 
+     break; 
+   Choice 3:
+     printf("Pasta Rs 179 "); 
+     break; 
+   Choice 4:
+     printf("French Fries Rs 99 ");
+     break;
+   Choice 5:
+     printf("Sandwhich Rs 149 ");
+   default: 
+     printf("Default "); 
+   } 
+   return 0; 
+  }
